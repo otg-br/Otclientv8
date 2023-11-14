@@ -1,0 +1,12 @@
+GPU ANGLE (AMD Radeon HD 6570 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Otclientv8/'
+== application started at Nov 14 2023 08:07:16
+OTCv8 3.2 rev 4 (dev) made by otclient.net built on Feb 26 2023 for arch x86
+WARNING: HTTP error for http://otclient.ovh/api/status.php: Invalid http status code (404)
+WARNING: HTTP error for http://otclient.ovh/api/status.php: Invalid http status code (404)
+WARNING: HTTP error for http://otclient.ovh/api/status.php: Invalid http status code (404)
+WARNING: HTTP error for http://otclient.ovh/api/status.php: Invalid http status code (404)
+Exiting application..
+WARNING: widget 'widget1315' was not explicitly destroyed
