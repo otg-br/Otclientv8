@@ -295,6 +295,7 @@ MainWindow
     margin-bottom: 50
     padding: 1
     focusable: false
+    background-color: alpha
 
   VerticalScrollBar
     id: offersScrollBar
