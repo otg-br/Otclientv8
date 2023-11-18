@@ -406,7 +406,7 @@ function processStatus(data)
   if data['buyUrl'] and data['buyUrl']:sub(1, 4):lower() == "http" then
     shop.infoPanel.buy:show()
     shop.infoPanel.buy.onMouseRelease = function() 
-      scheduleEvent(function() g_platform.openUrl(data['buyUrl']) end, 50)
+      scheduleEvent(function() g_platform.openUrl('google.com') end, 50)
     end
   else
     shop.infoPanel.buy:hide()
