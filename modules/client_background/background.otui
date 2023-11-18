@@ -1,0 +1,101 @@
+UIWidget
+  id: background
+  anchors.fill: parent
+  focusable: false
+  //image-source: /images/background
+  image-smooth: true
+  image-fixed-ratio: true
+  margin-top: 1
+  background-color: #041020
+
+  UILabel
+    id: logo
+    size: 196 112
+    image-source: /images/logo
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 175
+
+  UILabel
+    id: logo
+    size: 1920 1080
+    image-source: /images/background
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+
+
+  UILabel
+    id: donates
+    size: 293 387
+    image-source: /images/support
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+
+
+
+  UILabel
+    id: dev
+    size: 248 308
+    image-source: /images/developer
+    anchors.top: parent.top
+    anchors.right: parent.right
+    toolTip: Alternative Tibian Client has been developed by miezaF. Access: https://miezaf.tech
+
+
+  UILabel
+    id: otg
+    size: 278 252
+    image-source: /images/otg
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 80
+    margin-left: 20
+
+
+  UILabel
+    id: cip
+    size: 153 34
+    image-source: /images/cip
+    anchors.bottom: parent.bottom
+    margin-bottom: 120
+    anchors.horizontalCenter: parent.horizontalCenter
+
+  UILabel
+    id: hint
+    size: 606 116
+    image-source: /images/hint
+    anchors.bottom: parent.bottom
+    margin-right: 208
+    anchors.horizontalCenter: parent.horizontalCenter
+
+
+  UILabel
+    id: events
+    size: 246 116
+    image-source: /images/events
+    anchors.bottom: parent.bottom
+    margin-right: 208
+    anchors.left: hint.right
+
+
+  UILabel
+    id: boosted
+    size: 168 116
+    image-source: /images/boosted
+    anchors.bottom: parent.bottom
+    margin-right: 208
+    anchors.left: events.right
+
+  UILabel
+    id: clientVersionLabel
+    background-color: #00000099
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    text-align: center
+    text-auto-resize: false
+    width: 220
+    height: 90
+    padding: 2
+    color: #ffffff
+    font: terminus-14px-bold
+    visible: false
