@@ -55,7 +55,7 @@ TopMenuButtonsPanel < Panel
   padding: 6 4
 
 TopMenuPanel < Panel
-  height: 36
+  height: 31
   image-source: /images/ui/panel_top
   image-repeated: true
   image-border: 3
@@ -73,7 +73,7 @@ TopMenuPingLabel < Label
 
 TopMenu < TopMenuPanel
   id: topMenu
-  width: 800
+  width: 1024
   anchors.horizontalCenter: parent.horizontalCenter
   anchors.top: parent.top
   &hideIngame: true
@@ -85,6 +85,23 @@ TopMenu < TopMenuPanel
     anchors.left: parent.left
     margin-top: 3
     margin-left: 5
+    image-source: /images/twitch
+    
+
+  UIWidget
+    id: discord
+    anchors.top: parent.top
+    anchors.left: prev.right
+    margin-top: 3
+    margin-left: 55
+    image-source: /images/youtube
+    
+
+  UIWidget
+    id: discord
+    anchors.top: parent.top
+    anchors.left: prev.right
+    margin-left: 55
     image-source: /images/ui/discord
     
   Label
@@ -110,12 +127,34 @@ TopMenu < TopMenuPanel
     visible: false
 
   Label
+    id: onlineico
+    size: 17 18
+    margin-top: 5
+    margin-right: 35
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/online
+
+  Label
     id: onlineLabel
+    margin-left: 10
     anchors.top: parent.top
     anchors.bottom: parent.bottom
-    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.left: onlineico.right
     text-align: center
     text-auto-resize: true
+    text: 0
+
+
+  Label
+    id: ponl
+    margin-top: 7
+    margin-left: 10
+    anchors.top: parent.top
+    anchors.left: onlineLabel.right
+    text-align: left
+    text-auto-resize: true
+    text: Players online
 
   TopMenuButtonsPanel
     id: leftButtonsPanel

@@ -61,7 +61,7 @@ EnterGameWindow
   Button
     !text: tr('Create New Account')
     size: 108 20
-    color: #C0C0C0
+    color: white
     anchors.left: parent.left
     anchors.bottom: parent.bottom
     font: cipsoftFont
@@ -70,7 +70,7 @@ EnterGameWindow
   Button
     !text: tr('Log In')
     size: 86 20
-    color: #C0C0C0
+    color: white
     font: cipsoftFont
     anchors.right: parent.right
     anchors.bottom: parent.bottom

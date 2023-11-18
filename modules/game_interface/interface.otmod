@@ -39,6 +39,7 @@ Module
     - game_actionbar
     - game_prey
     - game_imbuing
+    - game_store
     - game_stats
     - game_shaders
     - game_bot

@@ -22,7 +22,7 @@ Servers = {
   Evoulinia = "evolunia.net:7171:1098",
   GarneraTest = "garnera-global.net:7171:1100",
   LocalTestServ = "127.0.0.1:7171:1098:110:30:93"  ]]
-  OTG = "127.0.0.1:7171:1098"
+  OTG = "35.199.109.94:7171:1098"
 }
 
 --Server = "ws://otclient.ovh:3000/"
