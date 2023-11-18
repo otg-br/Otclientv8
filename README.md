@@ -1,14 +1,18 @@
-# OTCv8 Developer Editon (sources)
+# Otclientv8 OTG-BR Server + Sources
 
-Ready to use binaries are available in [OTCv8/otclientv8](https://github.com/OTCv8/otclientv8) repository.
+Hello players, this project is a fork Otcv8 of Kondrah
+This otcv8 client focuses on bringing as much similarity as possible to the current 13x tibia.
+
+## Features:
+- Store tibia client 13x (visual, banner, sections, sub categorys)
+- Login tibia client 13x
+- Fix bugs critical
+- Fix Prey 
+
 
 OTCv8 sources. You can add whatever you want and create pull request with your changes.
 Accepted pull requests will be added to official OTCv8 version, so if you want a new feature in OTCv8, just add it here and wait for approval.
 If you add custom feature, make sure it's optional and can be enabled via g_game.enableFeature function, otherwise your pull request will be rejected.
-
-This repository uses Github Actions to build and test OTCv8 automaticlly whenever you push changes to repository.
-
-Check Actions tab to see test results or to download latest binaries. ![Workflow status](https://github.com/OTCv8/otcv8-dev/actions/workflows/ci-cd.yml/badge.svg)
 
 ## Compilation
 
@@ -56,6 +60,6 @@ You can use powershell script create_android_assets.ps1 to create them automatic
 
 ## Links
 
-- Discord: https://discord.gg/feySup6
-- Forum: http://otclient.net
-- Email: otclient@otclient.ovh
+- Discord: https://discord.gg/Nc2cASh2
+- Forum: 
+- Email: 

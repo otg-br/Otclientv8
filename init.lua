@@ -22,6 +22,9 @@ Servers = {
   Evoulinia = "evolunia.net:7171:1098",
   GarneraTest = "garnera-global.net:7171:1100",
   LocalTestServ = "127.0.0.1:7171:1098:110:30:93"  ]]
+  
+  -- voce pode usar da version 760 ate 1100, exemplo uso 860, voce troca o 1098 por 860
+  -- cria no diretorio data/things a pasta com nome de 860 e coloca o .dat e .spr dentro
   OTG = "35.199.109.94:7171:1098"
 }
 
