@@ -551,6 +551,18 @@ function changeCategory(widget, newCategory)
     g_game.requestStoreOffers(newCategory.name:getText(), serviceType)
   end
   
+  if newCategory.name:getText() == "Home" then
+      shop.adPanel:setVisible(true)
+      shop.adOffers:setVisible(true)
+      shop.divad:setVisible(true)
+      shop.offers:setVisible(false)
+  else
+      shop.adPanel:setVisible(false)
+      shop.adOffers:setVisible(false)
+      shop.divad:setVisible(false)
+      shop.offers:setVisible(true)
+  end
+  
   browsingHistory = false
   local id = tonumber(newCategory:getId():split("_")[2])
   clearOffers()
