@@ -3,6 +3,7 @@ OptionPanel
     width: 130
     id: layoutLabel
     !text: tr("Layout (change requries client restart)")
+    visible: false
     $mobile:
       visible: false
   
@@ -11,6 +12,7 @@ OptionPanel
     margin-top: 3
     margin-right: 2
     margin-left: 2
+    visible: false
     $mobile:
       visible: false
     @onOptionChange: modules.client_options.setOption(self:getId(), self:getCurrentOption().text)
@@ -25,6 +27,7 @@ OptionPanel
   OptionCheckBox
     id: classicView
     !text: tr('Classic view')
+    !tooltip: tr('It will remove the side bars')
     margin-top: 5
     
     $mobile:
