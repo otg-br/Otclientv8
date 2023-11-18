@@ -247,6 +247,7 @@ MainWindow
     margin-bottom: 47
     visible: false
     anchors.bottom: parent.bottom
+    @onClick: g_platform.openUrl("https://google.com")
     visible: false
 
   Panel
@@ -313,7 +314,14 @@ MainWindow
     margin-right: 47
     anchors.bottom: parent.bottom
     @onClick: modules.game_shop.showHistory()
-    visible: false
+
+  UIButton
+    id: buyCoins
+    size: 64 20
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-right: 77
+    anchors.bottom: parent.bottom
+    @onClick: g_platform.openUrl("https://google.com")
 
   UIButton
     id: transferOpen
@@ -322,7 +330,6 @@ MainWindow
     margin-right: 8
     anchors.bottom: parent.bottom
     @onClick: modules.game_shop.showTransfer()
-    visible: false
 
   UIButton
     id: buttonCancel
