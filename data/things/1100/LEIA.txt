@@ -1,0 +1,8 @@
+COLOQUE NESSA PASTA O SEU
+.DAT E .SPR
+
+na pasta principal edite o init.lua voce configura seu IP e coloca a version que voce deseja usar
+exemplo 860, 1098, 1099, 1100
+
+PARA USAR COM OTG GLOBAL 11X VOCE COLOCA 1100 E BAIXA O CLIENTE 10X
+COLOCA AQUI O TIBIA.DAT E TIBIA.SPR
