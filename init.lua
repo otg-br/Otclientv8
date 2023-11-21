@@ -25,7 +25,7 @@ Servers = {
   
   -- voce pode usar da version 760 ate 1100, exemplo uso 860, voce troca o 1098 por 860
   -- cria no diretorio data/things a pasta com nome de 860 e coloca o .dat e .spr dentro
-  OTG = "35.199.109.94:7171:1098"
+  OTG = "35.199.109.94:7171:1100"
 }
 
 --Server = "ws://otclient.ovh:3000/"
