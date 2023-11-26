@@ -63,6 +63,7 @@ function init()
     onPreyPrice = onPreyPrice,
     onPreyLocked = onPreyLocked,
     onPreyInactive = onPreyInactive,
+                    onPlayerGoods = onPlayerGoods,
     onPreyActive = onPreyActive,
     onPreySelection = onPreySelection
   })
@@ -105,6 +106,7 @@ function onHover(widget)
   if widget:isVisible() then
     local id = widget:getId()
     local desc = descriptionTable[id]
+      refreshPlayerGoods()
     if desc then
       preyWindow.description:setText(desc)
     end
@@ -122,6 +124,7 @@ function terminate()
     onPreyLocked = onPreyLocked,
     onPreyInactive = onPreyInactive,
     onPreyActive = onPreyActive,
+                    onPlayerGoods = onPlayerGoods,
     onPreySelection = onPreySelection
   })
   
@@ -528,11 +531,30 @@ function onResourceBalance(type, balance)
   end
 end
 
+
+function onPlayerGoods(money, items)
+  playerMoney = money
+
+  playerItems = {}
+  for key,item in pairs(items) do
+    local id = item[1]:getId()
+    if not playerItems[id] then
+      playerItems[id] = item[2]
+    else
+      playerItems[id] = playerItems[id] + item[2]
+    end
+  end
+
+  refreshPlayerGoods()
+end
+
+
 function showMessage(title, message)
   if msgWindow then
     msgWindow:destroy()
   end
     
+      refreshPlayerGoods()
   msgWindow = displayInfoBox(title, message)
   msgWindow:show()
   msgWindow:raise()

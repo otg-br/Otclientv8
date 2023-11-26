@@ -210,7 +210,7 @@ MainWindow
       anchors.horizontalCenter: parent.horizontalCenter
       anchors.top: parent.top
       margin-top: 13
-      margin-right: 5
+      margin-right: 10
       color: #C0C0C0
       text: -
       text-auto-resize: true

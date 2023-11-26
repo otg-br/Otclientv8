@@ -185,7 +185,7 @@ function updateFeatures(version)
         g_game.enableFeature(GameAdditionalSkills)
     end
     
-    if(version >= 1100) then
+    if(version >= 1098) then
         g_game.enableFeature(GamePrey)    
     end
     
